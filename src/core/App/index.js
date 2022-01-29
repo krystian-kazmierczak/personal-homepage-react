@@ -1,13 +1,14 @@
 function App() {
-    return (
-      <div>
+  return (
+    <div>
+      <header>
         <h1>Test</h1>
         <h2>Test</h2>
         <h3>Test</h3>
-        <p> lorem ipsum dolor sit amet, consectetur adip</p>
-      </div>
-    );
-  }
-  
-  export default App;
-  
+      </header>
+      <p> lorem ipsum dolor sit amet, consectetur adip</p>
+    </div>
+  );
+}
+
+export default App;
