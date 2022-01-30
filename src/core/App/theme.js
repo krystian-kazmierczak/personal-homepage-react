@@ -29,7 +29,7 @@ const common = {
   borderRadiusSmall: "4px",
 };
 
-export const theme = {
+export const themeLight = {
   ...common,
   colors: {
     primary: color.scienceBlue,
@@ -54,6 +54,34 @@ export const theme = {
       background: color.mercury,
       border: color.scienceBlue,
       icon: color.white,
+    },
+  },
+};
+
+export const themeDark = {
+  ...common,
+  colors: {
+    primary: color.dodgerBlue,
+    textPrimary: color.white,
+    site: {
+      background: color.mineShaft,
+      text: color.white,
+    },
+    buttonLink: {
+      text: color.white,
+      border: color.ironTransparent,
+      shadow: color.shipCove,
+    },
+    boxBackground: color.mineShaftLighter,
+    headerLine: color.tundora,
+    tile: {
+      border: color.tundora,
+      borderHover: color.blumine,
+      header: color.white,
+    },
+    themeSwitch: {
+      background: color.doveGray,
+      icon: color.mineShaft,
     },
   },
 };
