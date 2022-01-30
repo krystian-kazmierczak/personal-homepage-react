@@ -1,8 +1,8 @@
 import { Section, Header, StyledGithubIcon, SubTitle } from "./styled";
 import { Title } from "./../Skills/styled";
+import { ErrorBox } from "./Content/ErrorBox";
 
 export const Portfolio = () => {
-
   return (
     <Section>
       <Header>
@@ -10,7 +10,7 @@ export const Portfolio = () => {
         <Title>Portfolio</Title>
         <SubTitle>My recent projects</SubTitle>
       </Header>
-    <div>Projects</div>
+      <ErrorBox />
     </Section>
   );
 };
