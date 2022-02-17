@@ -20,7 +20,7 @@ export const Title = styled.h2`
   color: ${({ theme }) => theme.colors.textPrimary};
   padding-bottom: 16px;
   border-bottom: 1px solid ${({ theme }) => theme.colors.headerLine};
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
     padding-bottom: 12px;
     font-size: 18px;
   }

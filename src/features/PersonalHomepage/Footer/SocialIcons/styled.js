@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const styleIcon = (Icon) => styled(Icon)`
   height: auto;
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
     width: 32px;
     height: 35px;
     vertical-align: middle;
@@ -16,14 +16,14 @@ export const List = styled.ul`
   margin-bottom: 0;
   padding: 0;
   list-style: none;
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
     margin-top: 40px;
   }
 `;
 
 export const Item = styled.li`
   margin-right: 24px;
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
     margin-top: 16px;
   }
 `;
