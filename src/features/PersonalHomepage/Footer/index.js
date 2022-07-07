@@ -10,7 +10,7 @@ import {
 import { SocialIcons } from "./SocialIcons/index";
 
 export const Footer = () => (
-  <Wrapper>
+  <Wrapper id="letsTalk">
     <LetsTalk>Let's talk!</LetsTalk>
     <Address>
       <EmailWrapper>

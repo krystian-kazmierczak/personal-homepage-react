@@ -1,5 +1,4 @@
 import profile from "./profile.jpg";
-import { email } from "./../email";
 import {
   Wrapper,
   Images,
@@ -22,7 +21,7 @@ export const Header = () => (
         projects. Currently I'm looking for new job opportunities, so if you
         like my work don't hesitate to contact me!
       </Summary>
-      <StyledButton href={`mailto:${email}`} title={email}>
+      <StyledButton href="#letsTalk">
         <ButtonIcon />
         Hire me
       </StyledButton>
